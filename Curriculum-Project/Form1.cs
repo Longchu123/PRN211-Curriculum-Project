@@ -14,6 +14,12 @@ namespace Curriculum_Project
         public Form1()
         {
             InitializeComponent();
+            int n = 5;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

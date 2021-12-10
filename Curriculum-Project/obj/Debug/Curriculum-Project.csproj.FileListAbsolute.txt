@@ -1,0 +1,9 @@
+C:\Users\Dell\OneDrive\Documents\Curriculum-Project\Curriculum-Project\bin\Debug\Curriculum-Project.exe
+C:\Users\Dell\OneDrive\Documents\Curriculum-Project\Curriculum-Project\bin\Debug\Curriculum-Project.pdb
+C:\Users\Dell\OneDrive\Documents\Curriculum-Project\Curriculum-Project\obj\Debug\Curriculum-Project.csproj.AssemblyReference.cache
+C:\Users\Dell\OneDrive\Documents\Curriculum-Project\Curriculum-Project\obj\Debug\Curriculum_Project.Form1.resources
+C:\Users\Dell\OneDrive\Documents\Curriculum-Project\Curriculum-Project\obj\Debug\Curriculum_Project.Properties.Resources.resources
+C:\Users\Dell\OneDrive\Documents\Curriculum-Project\Curriculum-Project\obj\Debug\Curriculum-Project.csproj.GenerateResource.cache
+C:\Users\Dell\OneDrive\Documents\Curriculum-Project\Curriculum-Project\obj\Debug\Curriculum-Project.csproj.CoreCompileInputs.cache
+C:\Users\Dell\OneDrive\Documents\Curriculum-Project\Curriculum-Project\obj\Debug\Curriculum-Project.exe
+C:\Users\Dell\OneDrive\Documents\Curriculum-Project\Curriculum-Project\obj\Debug\Curriculum-Project.pdb
