@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,10 +16,11 @@ namespace Curriculum_Project
         public Form1()
         {
             InitializeComponent();
-            String sql = @"select distinct SubjectCode, SubjectName, Termno from SUBJECTS order by Termno ";
+            String sql = @"select SubjectCode, SubjectName, Termno from SUBJECTS order by Termno ";
             dataGridView1.DataSource = DAO.GetDataBySQL(sql, new System.Data.SqlClient.SqlParameter[] { });
             String sql2 = @"select S2.SubjectCode, S1.SubjectCode from SUBJECTS S1 join SUBJECTS S2 on S1.SubjectId = S2.Subjec_prequisite";
             dataGridView2.DataSource = DAO.GetDataBySQL(sql2, new System.Data.SqlClient.SqlParameter[] { });
+            dataGridView2.Columns[1].HeaderText = "Subject Prequisite";
             
         }
 
@@ -44,7 +46,7 @@ namespace Curriculum_Project
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+         Process.Start("https://fap.fpt.edu.vn/Student.aspx");
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -55,6 +57,21 @@ namespace Curriculum_Project
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://fpt.edu.vn/"); // nguon https://stackoverflow.com/questions/6305388/how-to-launch-a-google-chrome-tab-with-specific-url-using-c-sharp
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+        Process.Start("https://fap.fpt.edu.vn/User/UserDetail.aspx");
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://fap.fpt.edu.vn/Default.aspx");
         }
     }
 }
